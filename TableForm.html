@@ -8,7 +8,7 @@
     <title>Table and Form</title>
 </head>
 <body>
-    <table class="table">
+    <table class="table table-hover table-striped table-bordered">
         <thead>
           <tr>
             <th>Name</th>
@@ -29,5 +29,27 @@
           </tr>
         </tbody>
       </table>
+      <br>
+      <br>
+      <label for="username">Username</label>
+      <input id="username" type="text" class="form-control" placeholder="Input Your Data">
+      <br>
+      <label for="">Disabled</label>
+      <input type="text" class="form-control" placeholder="Disabled Input" disabled>
+      <br>
+      <label for="">Color</label>
+      <input type="color" class="form-control form-control-color">
+      <br>
+      <label for="">Input Group</label>
+      <div class="input-group mb-3">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" placeholder="Username">
+      </div>
+      <label for="">Weight</label>
+      <div class="input-group">
+        <span class="input-group-text">Kg</span>
+        <input type="text" class="form-control">
+        <span class="input-group-text">.00</span>
+      </div>
 </body>
 </html>
